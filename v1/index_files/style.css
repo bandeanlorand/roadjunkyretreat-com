@@ -1340,9 +1340,10 @@ blockquote {
 }
 
 @media screen and (min-width: 1024px) {
-	.hide-desktop  { 
+	.hide-desktop {
 		display: none;
 	}
+
 	.site-content img.banner.desktop {
 		display: block;
 	}
@@ -1412,12 +1413,11 @@ blockquote {
 	}
 
 	.tag {
-		/* width: 100%; */
-		/* position: absolute; */
-		padding: 8px 24px 8px 24px;
+		padding: 8px 8vw 8px 9vw;
 		font-size: 1.14rem;
 		text-align: center;
 		display: block;
+		line-height: 120%;
 	}
 
 
